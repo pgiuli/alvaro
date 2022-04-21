@@ -11,8 +11,8 @@ require_once('db.php');
 
 echo("<meta http-equiv='refresh' content='1'> ");
 
-$sql = "SELECT valor FROM paraules";
-$result = $conn->query($sql);
+$valorparaula = "SELECT valor FROM paraules";
+$result = $conn->query($valorparaula);
 
 if ($result->num_rows > 0) {
     // output data of each row
